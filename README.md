@@ -1,7 +1,6 @@
 # To Fixed Round
 [![npm version](https://badge.fury.io/js/to-fixed-round.svg)](https://badge.fury.io/js/to-fixed-round) 
 [![Bower](https://img.shields.io/bower/v/to-fixed-round.svg)]()
-[![dependency Status](https://david-dm.org/eraycetinay/to-fixed-round.svg)](https://david-dm.org/eraycetinay/to-fixed-round.svg)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 Converts a number into a string and returns the number by keeping a specified number of decimal after rounding to the nearest.
