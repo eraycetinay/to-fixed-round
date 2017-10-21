@@ -9,7 +9,7 @@ Converts a number into a string and returns the number by keeping a specified nu
 ```
 npm install to-fixed-round or bower install to-fixed-round
 ```
-# Usage
+## Usage
 ```
 require('to-fixed-round');
 var example=1.234;
@@ -17,7 +17,7 @@ var fixedString=example.toFixedRound(2);
 var fixedNumber=example.toFixedRound(2,true);
 ```
 **Note:** If you set true to second parameter, it will return a fixed number not string. Also it will round last digit to 1 if it is a 0 for to return a number.
-# Examples
+## Examples
 ```
 require('to-fixed-round');
 var x = [123, 123.1, 123.12, 123.123, 123.1234, 123.12345, 123.012345, 123.0012345, 123.00012345];
