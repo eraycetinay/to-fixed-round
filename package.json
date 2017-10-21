@@ -1,0 +1,19 @@
+{
+  "name": "to-fixed-round",
+  "version": "1.0.0",
+  "author": "Eray Cetinay <eraycetinay@gmail.com>",
+  "main": "index.js",
+  "description": "Converts a number into a string and returns the number by keeping a specified number of decimal after rounding to the nearest.",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eraycetinay/to-fixed-round.git"
+  },
+  "keywords": [
+    "tofixed",
+    "number",
+    "math",
+    "round"
+  ],
+  "license": "MIT"
+}
