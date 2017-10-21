@@ -23,9 +23,9 @@ var fixedNumber=example.toFixedRound(2,true);
 require('to-fixed-round');
 var x = [123, 123.1, 123.12, 123.123, 123.1234, 123.12345, 123.012345, 123.0012345, 123.00012345];
 for (var i = 0; i < x.length; i++) {
-	  console.log("Number = "+x[i]);
+    console.log("Number = "+x[i]);
     console.log("Number.toFixedRound(3) = "+Number(x[i]).toFixedRound(3));
-    console.log("Number.toFixedRound(3,true) = "+Number(x[i]).toFixedRound(3,true)+'\n');
+    console.log("Number.toFixedRound(3,true) = "+Number(x[i]).toFixedRound(3,true));
 }
 ```
 **Output**
