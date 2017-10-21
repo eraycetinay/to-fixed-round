@@ -17,7 +17,7 @@ var example=1.234;
 var fixedString=example.toFixedRound(2);
 var fixedNumber=example.toFixedRound(2,true);
 ```
-**Note:**If you set true to second parameter, it will round last digit to 1 if it is a 0 for to return a number.
+**Note:** If you set true to second parameter, it will round last digit to 1 if it is a 0 for to return a number.
 # Examples
 ```
 require('to-fixed-round');
