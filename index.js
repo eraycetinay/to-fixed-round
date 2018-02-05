@@ -1,8 +1,13 @@
 'use strict';
 
-Number.prototype.toFixedRound = function(ln = 0, rn = 0) {
-    var n = 0,
-        l = 0;
+Number.prototype.toFixedRound = function(ln, rn) {
+    var n = l = 0;
+    if(!ln) {
+        ln = 0;
+    }
+    if(!rn) {
+        rn = 0;
+    }
     n = parseFloat(this);
     if (Math.floor(this.valueOf()) == this.valueOf()) {
         l = 0;
