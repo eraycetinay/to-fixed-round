@@ -1,7 +1,8 @@
 'use strict';
 
 Number.prototype.toFixedRound = function(ln, rn) {
-    var n = l = 0;
+    var n, l = 0;
+    
     if(!ln) {
         ln = 0;
     }
